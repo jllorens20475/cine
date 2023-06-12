@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cinema Ticket</title>
+</head>
+<body>
+    <div class="contenidor-pelicula">
+        <label>Triï una Pel·licula</label>
+        <select id="pelicula">
+            <option value="5">Super Mario Bros: La pelicula (5€)</option>
+            <option value="10">Guardianes de la Galaxia Vol. 3 (10€)</option>
+            <option value="15">Star Wars: Episodio IV - Una nueva Esperanza (15€)</option>
+            <option value="20">Braindead (Tu madre se ha comida a mi perro) (20€)</option>            
+        </select>
+    </div>
+    <ul class="llegienda">
+        <li>
+            <div class="seient"></div>
+            <small>N/A</small>
+        </li>
+        <li>
+            <div class="seient seleccionat"></div>
+            <small>Seleccionat</small>
+        </li>
+        <li>
+            <div class="seient ocupat"></div>
+            <small>Ocupat</small>
+        </li>
+    </ul>
+
+    <div class="contenidor">
+        <div class="pantalla"></div>
+        <div class="fila">
+            <div class="seient"></div>
+            <div class="seient"></div>
+            <div class="seient"></div>
+            <div class="seient ocupat"></div>
+            <div class="seient"></div>
+            <div class="seient"></div>
+            <div class="seient ocupat"></div>
+            <div class="seient"></div>
+        </div>
+        <div class="fila">
+            <div class="seient"></div>
+            <div class="seient"></div>
+            <div class="seient"></div>
+            <div class="seient"></div>
+            <div class="seient"></div>
+            <div class="seient ocupat"></div>
+            <div class="seient"></div>
+            <div class="seient"></div>
+        </div>
+        <div class="fila">
+            <div class="seient"></div>
+            <div class="seient"></div>
+            <div class="seient ocupat"></div>
+            <div class="seient ocupat"></div>
+            <div class="seient ocupat"></div>
+            <div class="seient"></div>
+            <div class="seient"></div>
+            <div class="seient"></div>
+        </div>
+        <div class="fila">
+            <div class="seient"></div>
+            <div class="seient"></div>
+            <div class="seient"></div>
+            <div class="seient ocupat"></div>
+            <div class="seient"></div>
+            <div class="seient"></div>
+            <div class="seient ocupat"></div>
+            <div class="seient"></div>
+        </div>
+        <div class="fila">
+            <div class="seient"></div>
+            <div class="seient"></div>
+            <div class="seient"></div>
+            <div class="seient"></div>
+            <div class="seient"></div>
+            <div class="seient ocupat"></div>
+            <div class="seient"></div>
+            <div class="seient"></div>
+        </div>
+        <div class="fila">
+            <div class="seient"></div>
+            <div class="seient"></div>
+            <div class="seient"></div>
+            <div class="seient"></div>
+            <div class="seient ocupat"></div>
+            <div class="seient ocupat"></div>
+            <div class="seient ocupat"></div>
+            <div class="seient ocupat"></div>
+        </div>
+    </div>
+    <p class="text">Ha seleccionat <span id="contador">0</span> seients per un preu de <span id="total">0</span>€</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
